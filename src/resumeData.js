@@ -118,13 +118,13 @@ let resumeData = {
 
     {
       "name": "Personal Trainer",
-      "description": "mobileapp",
+      "description": "The project created for Front-End Development school course. It allows an imaginary Personal Trainer to manage the customers and their trainings. React JS App + Flexbox + Material UI.  Project done individually.",
       "imgurl": "images/personal-trainer-app.png",
       "url": "https://github.com/SvetlanaZhak/personaltrainer-app",
     },
     {
       "name": "Makeup store",
-      "description": "mobileappnbjbjbjnjnkjnkj",
+      "description": "Spring Boot project done individually for Server Programming school course. It contains RESTful service, authentification, database connection. Java + Spring Boot + H2 DB, It supports multiple users with add, delete and edit book capabilities.  Project done individually.",
       "imgurl": "images/server_programming.png",
       "url": "https://github.com/SvetlanaZhak/makeupstore",
     },
