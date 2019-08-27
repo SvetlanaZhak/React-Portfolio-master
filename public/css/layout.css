@@ -486,12 +486,10 @@ ul#nav li.current a { color: rgb(176, 17, 17) }
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.portfolio-item .item-wrap a {
-   display: block;
+   transition: all 0.3s ease-in-out;
    cursor: pointer;
 }
+
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {

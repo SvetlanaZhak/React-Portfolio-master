@@ -115,26 +115,31 @@ let resumeData = {
     }
   ],
   "portfolio": [
+
     {
-      "name": "Kazakhstan",
-      "description": "First website about homecontry done at the first semester of studies",
-      "imgurl": "images/kz.jpg"
+      "name": "Personal Trainer",
+      "description": "mobileapp",
+      "imgurl": "images/personal-trainer-app.png",
+      "url": "https://github.com/SvetlanaZhak/personaltrainer-app",
+    },
+    {
+      "name": "Makeup store",
+      "description": "mobileappnbjbjbjnjnkjnkj",
+      "imgurl": "images/server_programming.png",
+      "url": "https://github.com/SvetlanaZhak/makeupstore",
+    },
+    {
+      "name": "Website portfolio",
+      "description": "mobileapp",
+      "imgurl": "images/website.png",
+      "url": "https://github.com/SvetlanaZhak/React-Portfolio-master",
     },
     {
       "name": "Database design",
       "description": "Creation of database using SQL Server for Data management and Databases course",
-      "imgurl": "images/Database diagram.png"
+      "imgurl": "images/Database diagram.png",
+      "url": undefined,
     },
-    {
-      "name": "Personal Trainer",
-      "description": "mobileapp",
-      "imgurl": "images/personal-trainer-app.png"
-    },
-    {
-      "name": "project4",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
-    }
   ],
 
 }
