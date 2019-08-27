@@ -1,45 +1,38 @@
 import React, { Component } from 'react';
 export default class About extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <section id="about">
-         <div className="row">
+   render() {
+      let resumeData = this.props.resumeData;
+      return (
+         <section id="about">
+            <div className="row">
 
-            <div className="three columns">
+               <div className="three columns">
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+                  <img className="profile-pic" src="images/linkedin-pic.JPG" alt="MainPic" />
 
-            </div>
+               </div>
 
-            <div className="nine columns main-col">
+               <div className="nine columns main-col">
 
-               <h2>About Me</h2>
-               <p>
-               {
-                 resumeData.aboutme
-               }
-               </p>
+                  <h2>About Me</h2>
+                  <p>
+                     {
+                        resumeData.aboutme
+                     }
+                  </p>
 
-               <div className="row">
-
-                  <div className="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span>
-       					   </p>
+                  {/*
+                  <div className="row">
+                     <div className="columns contact-details">
+                        <p className="address">
+                           <a href={resumeData.cv} target='_blank' rel="noopener noreferrer" style={{ textAlign: "center", width: "10px" }}  ><img alt="CV" src="images/CV.jpg" /></a>
+                        </p>
+                     </div>
                   </div>
+                      */}
                </div>
             </div>
-         </div>
-      </section>
-    );
-  }
+         </section>
+      );
+   }
 }

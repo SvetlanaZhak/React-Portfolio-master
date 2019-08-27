@@ -62,17 +62,7 @@
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #testimonials blockquote p {
-      font-size: 22px;
-      line-height: 46px;      
-   }
-
+ 
     /* Call to Action Section
    ------------------------------------------------------------------- */
    #call-to-action .header-col h1:before {
@@ -112,7 +102,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: rgb(204, 0, 0);
 		position: relative;
       border: none;
       float: right;
@@ -237,6 +227,18 @@
       
    .bars { width: 100%; }
 
+   /* Work Section
+   --------------------------------------------------------------------- */
+   #rwork .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   #work h1 { letter-spacing: 3px; }
+   #work.main-col { padding-right: 30px; }
+   #work h3, #work .info { text-align: center; }
+      
+   .bars { width: 100%; }
 
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
@@ -251,6 +253,32 @@
    #call-to-action .header-col h1:before { content: none; }
    #call-to-action p { font-size: 15px; }
 
+  /* Work Section
+   --------------------------------------------------------------------- */
+   #work .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   #work h1 { letter-spacing: 3px; }
+   #work .main-col { padding-right: 30px; }
+   #work h3, #work .info { text-align: center; }
+      
+   .bars { width: 100%; }
+
+
+   /* Call To Action Section
+   /* ----------------------------------------------------------------- */
+   #call-to-action { text-align: center; }
+   #call-to-action h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   }
+   #call-to-action h1 span { display: block; }
+   #call-to-action .header-col h1:before { content: none; }
+   #call-to-action p { font-size: 15px; }
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
@@ -258,28 +286,7 @@
    .popup-modal {	max-width: 85%; }
 
 
-   /* Testimonials Section
-   ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
-   #testimonials h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #testimonials h1 span { display: block; }
-   #testimonials .header-col h1:before { content: none; }
-   #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
-      font-size: 20px;
-      line-height: 42px;      
-   }
-
-   /* Control Nav */
-   .flex-control-nav {
-      text-align: center;
-      margin-left: -30px;
-   }
+ 
 
 
    /* contact Section
