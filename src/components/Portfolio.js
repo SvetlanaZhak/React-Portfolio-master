@@ -12,7 +12,7 @@ export default class Porfolio extends Component {
                 resumeData.portfolio && resumeData.portfolio.map((item) => {
                   return (
                     <div className="rows portfolio-item">
-                      <div className="item-wrap" onClick={() => window.open(item.url, "_blank")} >
+                      <div className="item-wrap" onClick={() => window.open(item.url ? item.url : item.imgurl, "_blank")} >
                         <img src={`${item.imgurl}`} alt="Project" className="item-img" />
                         <div className="overlay">
                           <div className="portfolio-item-meta">

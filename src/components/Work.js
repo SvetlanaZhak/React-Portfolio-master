@@ -21,9 +21,9 @@ export default class Work extends Component {
         return (
             <section id="work">
 
-                <div className="row work" />
 
-                <div className="row work">
+                <div className="row work" />
+                <div className="row work" >
                     <div className="three columns header-col">
                         <h1><span>Work</span></h1>
                     </div>
@@ -40,28 +40,26 @@ export default class Work extends Component {
                                                 {item.specialization}
                                             </p>
                                             <p className="date">{item.years}</p>
-
-                                            {item.responsibilities && item.responsibilities.map((s) => <p className="date">{s}</p>)}
-
-
-
-
-
+                                            <p>
+                                                {item.responsibilities}
+                                            </p>
                                             <p className="info">{item.specialization2}</p>
                                             <p className="date">{item.years2}</p>
-                                            {item.responsibilities2 && item.responsibilities2.map((s) => <p className="date">{s}</p>)}
+                                            <p className="date">{item.responsibilities2}</p>
 
                                         </div>
 
                                     </div>
 
+
+
                                 )
                             })
                         }
                     </div>
-                </div>
 
-            </section>
+                </div>
+            </section >
         );
     }
 }
