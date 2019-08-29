@@ -1,7 +1,6 @@
 let resumeData = {
-  imagebaseurl: "https://rbhatia46.github.io/",
+
   name: "Svetlana Zhak",
-  linkedinId: "Your LinkedIn Id",
   role: "Web Developer in Progress ",
   socialLinks: [
     {
@@ -78,10 +77,10 @@ let resumeData = {
         "Office Manager in the department of Capital Construction",
       years: "10/2012 - 06/2014",
       responsibilities:
-        "I was  designing, implementing database and filing systems for technical documents, coordinating the teamwork between three divisions building the 3rd power unit for the power station, scheduling and documenting the business meetings, handling incoming and outgoing mails, organising business trips to China and participating them as a translator;"
+        "I was  designing, implementing database and filing systems for technical documents, coordinating the teamwork between three divisions, scheduling and documenting the business meetings, handling incoming and outgoing mails, organising business trips to China and participating them as a translator;"
     }
   ],
-  skillsDescription: "Your skills here",
+  skillsDescription: "Please check my skills",
   skills: [
     {
       skillname: "HTML5"
@@ -90,8 +89,26 @@ let resumeData = {
       skillname: "CSS"
     },
     {
+      skillname: "JavaScript"
+    },
+    {
+      skillname: "Java"
+    },
+    {
+      skillname: "SQL"
+    },
+    {
       skillname: "Reactjs"
-    }
+    },
+    {
+      skillname: "jQuery"
+    },
+    {
+      skillname: "Bootstrap"
+    },
+    {
+      skillname: "Python"
+    },
   ],
   portfolio: [
     {
