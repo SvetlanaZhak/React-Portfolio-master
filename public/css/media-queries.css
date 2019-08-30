@@ -60,9 +60,18 @@
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #resume .main-col { padding-right: 5%; } 
 
- 
+   /* Skills Section
+   ------------------------------------------------------------------- */
+   #skills h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #skills .main-col { padding-right: 5%; }  
+   
+   
+  /* Education Section
+   ------------------------------------------------------------------- */
+   #education h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #education .main-col { padding-right: 5%; }   
     /* Call to Action Section
    ------------------------------------------------------------------- */
    #call-to-action .header-col h1:before {
@@ -214,7 +223,7 @@
    #about .main-col { padding-right: 30px; }
 
 
-   /* Resume Section
+   /* Education Section
    --------------------------------------------------------------------- */
    #resume .header-col {
       padding-top: 0;
@@ -225,11 +234,24 @@
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
       
+ 
+
+      /* Skills Section
+   --------------------------------------------------------------------- */
+   #skills .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   #skills h1 { letter-spacing: 3px; }
+   #skills .main-col { padding-right: 30px; }
+   #skills h3, #skills .info { text-align: center; }
+      
    .bars { width: 100%; }
 
    /* Work Section
    --------------------------------------------------------------------- */
-   #rwork .header-col {
+   #work .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
@@ -240,31 +262,6 @@
       
    .bars { width: 100%; }
 
-   /* Call To Action Section
-   /* ----------------------------------------------------------------- */
-   #call-to-action { text-align: center; }
-   #call-to-action h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #call-to-action h1 span { display: block; }
-   #call-to-action .header-col h1:before { content: none; }
-   #call-to-action p { font-size: 15px; }
-
-  /* Work Section
-   --------------------------------------------------------------------- */
-   #work .header-col {
-      padding-top: 0;
-      margin-bottom: 48px;
-      text-align: center;
-   }
-   #work h1 { letter-spacing: 3px; }
-   #work .main-col { padding-right: 30px; }
-   #work h3, #work .info { text-align: center; }
-      
-   .bars { width: 100%; }
 
 
    /* Call To Action Section
