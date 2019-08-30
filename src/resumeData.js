@@ -7,23 +7,23 @@ let resumeData = {
       name: "linkedin",
       url: "https://www.linkedin.com/in/svetlana-zhak-1152a4109/",
       className: "fa fa-linkedin",
-      delay: 3800
+      delay: 3500
     },
     {
       name: "cv",
       url: "CV.pdf",
       className: "fa fa-id-card-o",
-      delay: 4500
+      delay: 4000
     },
     {
       name: "github",
       url: "https://github.com/SvetlanaZhak",
       className: "fa fa-github",
-      delay: 5300
+      delay: 4500
     }
   ],
   aboutme:
-    "I am third year student of Business Information Technology at Haaga-Helia University, I'm looking for an internship in Business IT to start my career in Software development. I have 4 years experience in the customer service, good organizational and communicational skills. If you are seeking a motivated student with a hard-working attitude, attention to detail and a good teamplayer, please consider me as a candidate.",
+    "I am a hard working third year student of Business IT at Haaga-Helia University. I have 4 years of experience in customer service, great organizational and communicational skills. I'm currently looking for an internship in software development.",
   cv: "CV.pdf",
   education: [
     {
@@ -36,7 +36,7 @@ let resumeData = {
       UniversityName:
         "Haaga-Helia University of Applied Sciences, Helsinki, Finland",
       specialization:
-        "Bachelor's degree, Hospitality, Tourism, Experience Management",
+        "Bachelor's degree, Experience Management, Hospitality, Tourism",
       YearsOfStudying: "08/2014 – 03/2018"
     },
     {
@@ -51,25 +51,25 @@ let resumeData = {
       specialization: "Refunder",
       years: " 06/2019 - present",
       responsibilities:
-        "I am verifying and refunding Global Blue tax free forms, ensuring customer satisfaction, preventing refunding mistakes and fraud, preparing reports as needed;"
+        "I am verifying and refunding Global Blue tax free forms. I strive for customer satisfaction in difficult situation, prevent fraud, prepare reports."
     },
     {
       CompanyName: "HMSHost Finland OY, Finland",
       specialization: "Shift Manager",
       years: "01/2017 - 05/2019",
       responsibilities:
-        "I was managing working shifts at Burger King restaurant. I was assigning tasks to staff members, resolving customer issues, training new hires, doing food and drink orders, performing monthly inventory of the restaurant.",
-      specialization2: "Counter employee",
+        "I was managing working shifts at Burger King restaurants. I was assigning tasks to staff members, resolving customer issues, training new hires, doing food and drink orders, and performing monthly inventory of the restaurant.",
+      specialization2: "Counter Employee",
       years2: "06/2015 - 12/2016",
       responsibilities2:
-        "I was providing customer-oriented and fast service, handling the sales, financial transactions and reconciling the cash register at the end of shift;"
+        "I was providing customer-oriented, fast phased service, handling the sales, financial transactions and reconciling the cash register."
     },
     {
       CompanyName: "Translation agency 'Mayra', Kazakhstan",
       specialization: "Translator of Chinese",
       years: "03/2013 - 08/2014",
       responsibilities:
-        "I was translating text materials from Chinese to Russian/Russian to Chinese"
+        "I was translating text materials from Chinese to Russian and vice versa."
     },
     {
       CompanyName: "Ekibastuz GRES-2 power station, Kazakhstan",
@@ -77,7 +77,7 @@ let resumeData = {
         "Office Manager in the department of Capital Construction",
       years: "10/2012 - 06/2014",
       responsibilities:
-        "I was  designing, implementing database and filing systems for technical documents, coordinating the teamwork between three divisions, scheduling and documenting the business meetings, handling incoming and outgoing mails, organising business trips to China and participating them as a translator;"
+        "I was  designing, implementing a database and filing systems for technical documents. I was also coordinating the teamwork between three divisions, scheduling and documenting meetings, organising business trips to China and participating them as a translator."
     }
   ],
   skills: {
@@ -96,28 +96,28 @@ let resumeData = {
     {
       name: "Website portfolio",
       description:
-        "Personal website created for showing own skills, education and work experience and done projects. React JS + ",
+        "Portfolio website created with React.js and Material-UI and hosted on Heroku.",
       imgurl: "images/website.png",
       url: "https://github.com/SvetlanaZhak/React-Portfolio-master"
     },
     {
       name: "Makeup store",
       description:
-        "Spring Boot project done individually for Server Programming school course. It contains RESTful service, authentification, database connection. Java + Spring Boot + H2 DB, It supports multiple users with add, delete and edit book capabilities.  Project done individually.",
+        "Spring Boot and Java back-end project with REST api, authentification, and database. The service supports multiple users and add, delete and edit functionalities.",
       imgurl: "images/server_programming.png",
       url: "https://github.com/SvetlanaZhak/makeupstore"
     },
     {
       name: "Personal Trainer",
       description:
-        "The project created for Front-End Development school course. It allows an imaginary Personal Trainer to manage the customers and their trainings. React JS App + Flexbox + Material UI.  Project done individually.",
+        "React.js front-end featuring Material-UI and Flexbox. The app allows personal trainers to manage their customers' trainings.",
       imgurl: "images/personal-trainer-app.png",
       url: "https://github.com/SvetlanaZhak/personaltrainer-app"
     },
     {
       name: "Database design",
       description:
-        "Creation of database diagram, using SQL Server for the case of Data management and Databases course. ER diagramm + Relational schemas + repository + database diagramm + sql scripts. Project done individually.",
+        "SQL Server database design, complete with ER diagram and sql scripts hosted in a git repository repository.",
       imgurl: "images/Database diagram.png",
       url: undefined
     }

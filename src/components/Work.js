@@ -22,7 +22,7 @@ export default class Work extends Component {
             <section id="work">
 
 
-                <div className="row work" />
+
                 <div className="row work" >
                     <div className="three columns header-col">
                         <h1><span>Work</span></h1>
@@ -37,16 +37,17 @@ export default class Work extends Component {
                                         <div className="twelve columns">
                                             <h3>{item.CompanyName}</h3>
                                             <p className="info">
-                                                {item.specialization}
+                                                {item.specialization}{' '}
+                                                <span className="date">{' '}{item.years}</span>
                                             </p>
-                                            <p className="date">{item.years}</p>
                                             <p>
                                                 {item.responsibilities}
                                             </p>
-                                            <p className="info">{item.specialization2}</p>
-                                            <p className="date">{item.years2}</p>
-                                            <p className="date">{item.responsibilities2}</p>
+                                            {item.specialization2 &&
+                                                (<><p className="info">{item.specialization2}{' '}<span className="date">{' '}{item.years2}</span></p>
 
+                                                    <p className="date">{item.responsibilities2}</p></>)
+                                            }
                                         </div>
 
                                     </div>

@@ -11,7 +11,7 @@ export default class Header extends Component {
     setTimeout(() => {
       document.getElementById('nav').style.visibility = "visible";
       document.getElementById('scrolldown').style.visibility = "visible";
-    }, 6000);
+    }, 4500);
   }
   render() {
     const resumeData = this.props.resumeData;
