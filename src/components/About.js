@@ -21,15 +21,7 @@ export default class About extends Component {
                      }
                   </p>
 
-                  {/*
-                  <div className="row">
-                     <div className="columns contact-details">
-                        <p className="address">
-                           <a href={resumeData.cv} target='_blank' rel="noopener noreferrer" style={{ textAlign: "center", width: "10px" }}  ><img alt="CV" src="images/CV.jpg" /></a>
-                        </p>
-                     </div>
-                  </div>
-                      */}
+
                </div>
             </div>
          </section>

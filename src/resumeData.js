@@ -23,7 +23,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "I am third year student of Business Information Technology at Haaga-Helia University, I'm looking for an internship in Business IT to start my career in Software development. I have 4 years experience in th customer service, good organizational and communicational skills. If you are seeking a motivated student with a hard-working attitude, attention to detail and a good teamplayer, please consider me as a candidate.",
+    "I am third year student of Business Information Technology at Haaga-Helia University, I'm looking for an internship in Business IT to start my career in Software development. I have 4 years experience in the customer service, good organizational and communicational skills. If you are seeking a motivated student with a hard-working attitude, attention to detail and a good teamplayer, please consider me as a candidate.",
   cv: "CV.pdf",
   education: [
     {
