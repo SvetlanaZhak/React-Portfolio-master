@@ -80,36 +80,18 @@ let resumeData = {
         "I was  designing, implementing database and filing systems for technical documents, coordinating the teamwork between three divisions, scheduling and documenting the business meetings, handling incoming and outgoing mails, organising business trips to China and participating them as a translator;"
     }
   ],
-  skillsDescription: "Please check my skills",
-  skills: [
-    {
-      skillname: "HTML5"
-    },
-    {
-      skillname: "CSS"
-    },
-    {
-      skillname: "JavaScript"
-    },
-    {
-      skillname: "Java"
-    },
-    {
-      skillname: "SQL"
-    },
-    {
-      skillname: "Reactjs"
-    },
-    {
-      skillname: "jQuery"
-    },
-    {
-      skillname: "Bootstrap"
-    },
-    {
-      skillname: "Python"
-    },
-  ],
+  skills: {
+    backend: [
+      "Java",
+      "SQL",
+      "Python",
+      "Unix",
+      "node.js"
+    ],
+    frontend: ["HTML / CSS", "JavaScript", "Reactjs", "jQuery",
+      "Bootstrap"],
+    people: ["Chinese", "English", "Russian", "SCRUM", "Customer Service"]
+  },
   portfolio: [
     {
       name: "Website portfolio",
@@ -135,7 +117,7 @@ let resumeData = {
     {
       name: "Database design",
       description:
-        "Creation of database using SQL Server for Data management and Databases course",
+        "Creation of database diagram, using SQL Server for the case of Data management and Databases course. ER diagramm + Relational schemas + repository + database diagramm + sql scripts. Project done individually.",
       imgurl: "images/Database diagram.png",
       url: undefined
     }
