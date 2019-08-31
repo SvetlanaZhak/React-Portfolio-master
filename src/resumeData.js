@@ -1,6 +1,6 @@
 let resumeData = {
 
-  name: "Svetlana Zhak",
+  name: "Svetlana Zhak ",
   role: "Web Developer in Progress ",
   socialLinks: [
     {
