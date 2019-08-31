@@ -117,9 +117,9 @@ let resumeData = {
     {
       name: "Database design",
       description:
-        "SQL Server database design, complete with ER diagram and sql scripts hosted in a git repository repository.",
+        "SQL Server database design, completed with ER diagram and sql scripts.",
       imgurl: "images/Database diagram.png",
-      url: undefined
+      url: "https://github.com/SvetlanaZhak/Database-Design.git"
     }
   ]
 };
