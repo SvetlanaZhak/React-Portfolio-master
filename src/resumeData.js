@@ -96,7 +96,7 @@ let resumeData = {
     {
       name: "Website portfolio",
       description:
-        "Portfolio website created with React.js and Material-UI and hosted on Heroku.",
+        "Portfolio website created with React.js and Material-UI, hosted on Heroku. Hotjar is used to collect information about visitors.",
       imgurl: "images/website.png",
       url: "https://github.com/SvetlanaZhak/React-Portfolio-master"
     },
