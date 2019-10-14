@@ -399,7 +399,6 @@ ul#nav li.current a { color: rgb(176, 17, 17) }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #313131;
   	height: 42px;
   	border-radius: 3px;
 }
@@ -409,14 +408,12 @@ ul#nav li.current a { color: rgb(176, 17, 17) }
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
-	top: -36px;
+   position: relative;	
 }
 .bar-expand {
+   top: 36px;
    position: absolute;
    left: 0;
-   top: 0;
-
    margin: 0;
    padding-right: 24px;
   	background: #ccc;
