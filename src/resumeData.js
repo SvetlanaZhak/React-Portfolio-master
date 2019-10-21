@@ -1,6 +1,5 @@
 let resumeData = {
-
-  name: "Svetlana Zhak ",
+  name: "Lana Zhak ",
   role: "Web Developer in Progress ",
   socialLinks: [
     {
@@ -81,15 +80,8 @@ let resumeData = {
     }
   ],
   skills: {
-    backend: [
-      "Java",
-      "SQL",
-      "Python",
-      "Unix",
-      "node.js"
-    ],
-    frontend: ["HTML / CSS", "JavaScript", "Reactjs", "jQuery",
-      "Bootstrap"],
+    backend: ["Java", "SQL", "Python", "Unix", "node.js"],
+    frontend: ["HTML / CSS", "JavaScript", "Reactjs", "jQuery", "Bootstrap"],
     people: ["Chinese", "English", "Russian", "SCRUM", "Customer Service"]
   },
   portfolio: [
