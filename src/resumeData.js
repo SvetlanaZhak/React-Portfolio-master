@@ -4,7 +4,7 @@ let resumeData = {
   socialLinks: [
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/svetlana-zhak-1152a4109/",
+      url: "https://www.linkedin.com/in/lana-zhak/",
       className: "fa fa-linkedin",
       delay: 3500
     },
@@ -48,7 +48,7 @@ let resumeData = {
     {
       CompanyName: "Global Blue, Finland",
       specialization: "Refunder",
-      years: " 06/2019 - present",
+      years: " 06/2019 - 09/2019",
       responsibilities:
         "I am verifying and refunding Global Blue tax free forms. I strive for customer satisfaction in difficult situation, prevent fraud, prepare reports."
     },
@@ -95,7 +95,7 @@ let resumeData = {
     {
       name: "Makeup store",
       description:
-        "Spring Boot and Java back-end project with REST api, authentification, and database. The service supports multiple users and add, delete and edit functionalities.",
+        "Spring Boot and Java back-end project with REST api, authentication, and database. The service supports multiple users and add, delete and edit functionalities.",
       imgurl: "images/server_programming.png",
       url: "https://github.com/SvetlanaZhak/makeupstore"
     },
