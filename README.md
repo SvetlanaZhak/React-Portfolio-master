@@ -1,6 +1,6 @@
 # Svetlana Zhak's Portfolio
 
-Portfolio website created with React.js and material-ui.
+Portfolio website created with React.js and Material-UI, hosted on Heroku. Hotjar is used to collect information about visitors.
 
 ![Portfolio](public/images/website.png)
 
