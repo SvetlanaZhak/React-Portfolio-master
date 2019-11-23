@@ -56,7 +56,7 @@ export default class Header extends Component {
           </div>
 
           <p className="scrolldown" id='scrolldown' style={{ visibility: 'hidden' }}>
-            <a className="smoothscroll" href="#about"><i class="fa fa-chevron-circle-down fa-lg" ></i></a>
+            <a className="smoothscroll" href="#about"><i className="fa fa-chevron-circle-down fa-lg" ></i></a>
           </p>
 
         </header>

@@ -50,14 +50,14 @@ let resumeData = {
       specialization: "Refunder",
       years: " 06/2019 - 09/2019",
       responsibilities:
-        "I am verifying and refunding Global Blue tax free forms. I strive for customer satisfaction in difficult situation, prevent fraud, prepare reports."
+        "I was verifying and refunding Global Blue tax free forms. I strove for customer satisfaction in difficult situation, prevent fraud, prepare reports."
     },
     {
       CompanyName: "HMSHost Finland OY, Finland",
       specialization: "Shift Manager",
       years: "01/2017 - 05/2019",
       responsibilities:
-        "I was managing working shifts at Burger King restaurants. I was assigning tasks to staff members, resolving customer issues, training new hires, doing food and drink orders, and performing monthly inventory of the restaurant.",
+        "I was managing working shifts at Burger King restaurants: assigning tasks to staff members, resolving customer issues, training new hires, doing food and drink orders, and performing monthly inventory of the restaurant.",
       specialization2: "Counter Employee",
       years2: "06/2015 - 12/2016",
       responsibilities2:
@@ -76,7 +76,7 @@ let resumeData = {
         "Office Manager in the department of Capital Construction",
       years: "10/2012 - 06/2014",
       responsibilities:
-        "I was  designing, implementing a database and filing systems for technical documents. I was also coordinating the teamwork between three divisions, scheduling and documenting meetings, organising business trips to China and participating them as a translator."
+        "I was coordinating technical planning and construction work of a new power unit. In addtion, I was organising business trips to China and participating them as a translator."
     }
   ],
   skills: {
@@ -86,9 +86,9 @@ let resumeData = {
   },
   portfolio: [
     {
-      name: "Website portfolio",
+      name: "",
       description:
-        "Portfolio website created with React.js and Material-UI, hosted on Heroku. Hotjar is used to collect information about visitors.",
+        "This portfolio website, created with React.js and Material-UI, hosted on Heroku. Hotjar is used to collect information about visitors.",
       imgurl: "images/website.png",
       url: "https://github.com/SvetlanaZhak/React-Portfolio-master"
     },

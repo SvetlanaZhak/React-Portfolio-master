@@ -30,10 +30,10 @@ export default class Work extends Component {
 
                     <div className="nine columns main-col">
                         {
-                            resumeData.work && resumeData.work.map((item) => {
+                            resumeData.work && resumeData.work.map((item, index) => {
 
                                 return (
-                                    <div className="row item">
+                                    <div className="row item" key={index}>
                                         <div className="twelve columns">
                                             <h3>{item.CompanyName}</h3>
                                             <p className="info">
@@ -46,7 +46,7 @@ export default class Work extends Component {
                                             {item.specialization2 &&
                                                 (<><p className="info">{item.specialization2}{' '}<span className="date">{' '}{item.years2}</span></p>
 
-                                                    <p className="date">{item.responsibilities2}</p></>)
+                                                    <p>{item.responsibilities2}</p></>)
                                             }
                                         </div>
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
-    console.log(resumeData)
+
     return (
       <section id="resume">
 
@@ -14,15 +14,15 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {
-              resumeData.education && resumeData.education.map((item) => {
+              resumeData.education && resumeData.education.map((item, key) => {
                 return (
-                  <div className="row item">
+                  <div key={key} className="row item">
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
-                        {item.specialization}
-                        <p className="date">{item.YearsOfStudying}
-                        </p>
+                        {item.specialization},
+                        <span className="date">{item.YearsOfStudying}
+                        </span>
                         {item.Achievements}
                       </p>
                     </div>

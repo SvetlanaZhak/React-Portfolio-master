@@ -10,9 +10,9 @@ export default class Porfolio extends Component {
             <br />
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {
-                resumeData.portfolio && resumeData.portfolio.map((item) => {
+                resumeData.portfolio && resumeData.portfolio.map((item, index) => {
                   return (
-                    <div className="rows portfolio-item">
+                    <div className="rows portfolio-item" key={index}>
                       <div className="item-wrap" onClick={() => window.open(item.url ? item.url : item.imgurl, "_blank")} >
                         <img src={`${item.imgurl}`} alt="Project" className="item-img" />
                         <div className="overlay">

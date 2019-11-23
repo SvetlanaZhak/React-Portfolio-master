@@ -18,15 +18,9 @@ export default class Skills extends Component {
                     <div className="three columns header-col">
                         <h1><span>Skills</span></h1>
                     </div>
-
-
                     <div className="nine columns main-col">
-
-
-
-
                         <div className="bars">
-                            <Grid item xs={30} className="buttons">
+                            <Grid item size="xs" className="buttons">
                                 <ButtonGroup variant="contained" size="large" fullWidth aria-label="full width outlined button group">
                                     <Button style={{ color: this.state.category === 'frontend' ? 'rgb(176, 17, 17)' : 'black' }} className="button" onClick={() => this.setState({ category: 'frontend' })}>Front-end</Button>
                                     <Button style={{ color: this.state.category === 'backend' ? 'rgb(176, 17, 17)' : 'black' }} className="button" onClick={() => this.setState({ category: 'backend' })}>Back-end</Button>
@@ -35,10 +29,9 @@ export default class Skills extends Component {
                             </Grid>
                             <ul className="skills">
                                 {
-
-                                    resumeData.skills && resumeData.skills[this.state.category].map((skill) => {
+                                    resumeData.skills && resumeData.skills[this.state.category].map((skill, key) => {
                                         return (
-                                            <li>
+                                            <li key={key}>
                                                 <span className={`bar-expand ${skill.toLowerCase().replace("customer service", "customer").replace("node.js", "node")}`}>
                                                 </span><em>{skill}</em>
                                             </li>
