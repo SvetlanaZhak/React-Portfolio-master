@@ -50,7 +50,7 @@ let resumeData = {
       specialization: "Web Development Intern",
       years: " 01/2020 - present",
       responsibilities:
-        "I am participating in the web development of the company's website and dashboard with the use of React, Node.js and Restdb"
+        "I am participating in the development of web based GoGoCar Platform using React, Redux, Node.js, Restdb and AWS"
     },
     {
       CompanyName: "Global Blue, Finland",
