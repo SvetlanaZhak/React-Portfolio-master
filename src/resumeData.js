@@ -46,6 +46,13 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "GoGoCar OY, Finland",
+      specialization: "Web Development Intern",
+      years: " 01/2020 - present",
+      responsibilities:
+        "I am participating in the web development of the company's website and dashboard with the use of React, Node.js and Restdb"
+    },
+    {
       CompanyName: "Global Blue, Finland",
       specialization: "Refunder",
       years: " 06/2019 - 09/2019",
