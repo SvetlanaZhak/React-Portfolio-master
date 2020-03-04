@@ -107,6 +107,13 @@ let resumeData = {
       url: "https://github.com/SvetlanaZhak/makeupstore"
     },
     {
+      name: "Viihde-app",
+      description:
+        "The application for cheking live programs on the Elisa Viihde service created with the use of React, Typescript, axios hooks, Material-UI and styled components.",
+      imgurl: "images/Viihde-app.png",
+      url: "https://github.com/SvetlanaZhak/viihde-app"
+    },
+    {
       name: "Personal Trainer",
       description:
         "React.js front-end featuring Material-UI and Flexbox. The app allows personal trainers to manage their customers' trainings.",
