@@ -22,7 +22,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am Junior Web Developer looking for a job in IT industry. I have seven months of working experience from Elisa Automate and GoGoCar. I have studied programming for four years and participated in various software projects. Now I am about to gratuate Haaga-Helia UAS.",
+    "I am Junior Web Developer looking for a job in IT industry. I have seven months of working experience from Elisa Automate and GoGoCar. I have studied programming for four years and participated in various software projects. Now I am about to gratuate from Haaga-Helia UAS.",
   cv: "CV.pdf",
   education: [
     {
