@@ -50,7 +50,7 @@ let resumeData = {
       specialization: "Software Engineer Intern",
       years: " 05/2020 - 08/2020",
       responsibilities:
-        "I ws doing frontend development of a visualisation tool for mobile network configuration data with the use of React.js, Redux, Node.js, Material UI and React-leaflet. Python and Elastic Search were used for checking logs and visualisation of possible bugs.",
+        "I was doing frontend development of a visualisation tool for mobile network configuration data with the use of React.js, Redux, Node.js, Material UI and React-leaflet. Python and Elastic Search were used for checking logs and visualisation of possible bugs.",
     },
     {
       CompanyName: "GoGoCar OY, Finland",
