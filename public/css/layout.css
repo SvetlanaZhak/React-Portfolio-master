@@ -1317,7 +1317,8 @@ call-to-action .button {
   color: white;
 }
 #recommendation .pics {
-  width: 50%;
+  width: 40%;
+  height: 50%;
 }
 div .alice-carousel__prev-btn {
   text-align: right;

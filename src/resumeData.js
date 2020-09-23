@@ -22,7 +22,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a hard working student about to graduate from Business IT at Haaga-Helia University. I started studying programming 4 years ago. During my studies I made various software projects, besides that I have 7 months of working experience in software industry. I have been doing internship in GoGoCar startup company and Elisa Automate. I'm currently looking for a Junior Developer role in software industry.",
+    "I am Junior Web Developer looking for a job in IT industry. I have seven months of working experience from Elisa Automate and GoGoCar. I have studied programming for four years and participated in various software projects. Now I am about to gratuate Haaga-Helia UAS.",
   cv: "CV.pdf",
   education: [
     {
