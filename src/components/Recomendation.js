@@ -8,7 +8,7 @@ export default class Recomendation extends Component {
     return (
       <section id="recommendation">
         <h1>
-          <span>Recomendations</span>
+          <span>Recommendations</span>
         </h1>
         <AliceCarousel>
           <img src={recommendation1} alt="GoGocar" width="50%" />
