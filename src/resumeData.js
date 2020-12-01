@@ -64,7 +64,7 @@ let resumeData = {
       specialization: "Refunder",
       years: " 06/2019 - 09/2019",
       responsibilities:
-        "I was verifying and refunding Global Blue tax free forms. I strove for customer satisfaction in difficult situation, prevent fraud, prepare reports.",
+        "I was verifying and refunding Global Blue tax free forms. I strove for customer satisfaction in difficult situation, was preventing frauds, preparing reports.",
     },
     {
       CompanyName: "HMSHost Finland OY, Finland",
