@@ -22,14 +22,14 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am Junior Web Developer looking for a job in IT industry. I have eight months of working experience from Elisa Automate and GoGoCar. I have studied programming for four years and participated in various software projects. Now I am about to gratuate from Haaga-Helia UAS.",
+    "I am Junior Web Developer looking for a job in IT industry. I have about one years of working experience from Smartly, Elisa Automate and GoGoCar. I have studied programming for four years and participated in various software projects. This year I gratuated from Haaga-Helia UAS.",
   cv: "CV.pdf",
   education: [
     {
       UniversityName:
         "Haaga-Helia University of Applied Sciences, Helsinki, Finland",
       specialization: "Bachelor's degree, Business Information Technology",
-      YearsOfStudying: "08/2017 - present",
+      YearsOfStudying: "08/2017 - 06/2021",
     },
     {
       UniversityName:
@@ -46,6 +46,13 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Smartly.io, Finland",
+      specialization: "Software Engineer",
+      years: " 05/2021 - present",
+      responsibilities:
+        "I am doing full-stack development with React.js, Node.js, TypeScript, PostgreSQL, Redis.",
+    },
+    {
       CompanyName: "Elisa Automate, Finland",
       specialization: "Software Engineer Intern",
       years: " 05/2020 - 08/2020",
@@ -58,40 +65,7 @@ let resumeData = {
       years: " 01/2020 - 04/2020",
       responsibilities:
         "I was doing full stack development of the web based GoGoCar Platform using React, Redux, Node.js, PostCss, Material UI, Restdb and AWS",
-    },
-    {
-      CompanyName: "Global Blue, Finland",
-      specialization: "Refunder",
-      years: " 06/2019 - 09/2019",
-      responsibilities:
-        "I was verifying and refunding Global Blue tax free forms. I strove for customer satisfaction in difficult situation, was preventing frauds, preparing reports.",
-    },
-    {
-      CompanyName: "HMSHost Finland OY, Finland",
-      specialization: "Shift Manager",
-      years: "01/2017 - 05/2019",
-      responsibilities:
-        "I was managing working shifts at Burger King restaurants: assigning tasks to staff members, resolving customer issues, training new hires, doing food and drink orders, and performing monthly inventory of the restaurant.",
-      specialization2: "Counter Employee",
-      years2: "06/2015 - 12/2016",
-      responsibilities2:
-        "I was providing customer-oriented, fast phased service, handling the sales, financial transactions and reconciling the cash register.",
-    },
-    {
-      CompanyName: "Translation agency 'Mayra', Kazakhstan",
-      specialization: "Translator of Chinese",
-      years: "03/2013 - 08/2014",
-      responsibilities:
-        "I was translating text materials from Chinese to Russian and vice versa.",
-    },
-    {
-      CompanyName: "Ekibastuz GRES-2 power station, Kazakhstan",
-      specialization:
-        "Office Manager in the department of Capital Construction",
-      years: "10/2012 - 06/2014",
-      responsibilities:
-        "I was coordinating technical planning and construction work of a new power unit. In addtion, I was organising business trips to China and participating them as a translator.",
-    },
+    }
   ],
   skills: {
     backend: ["Java", "SQL", "Python", "Unix", "node.js"],

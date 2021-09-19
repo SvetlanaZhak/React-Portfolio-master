@@ -1,4 +1,4 @@
-# Svetlana Zhak's Portfolio
+# Lana Zhak's Portfolio
 
 Portfolio website created with React.js and Material-UI, hosted on Heroku http://lana-zhak.herokuapp.com/. Hotjar is used to collect information about visitors.
 
