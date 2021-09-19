@@ -7,7 +7,7 @@ export default class Contact extends Component {
 
         <div >
           <h2>
-            <i className='fa fa-phone' />{' '}358 4578732621
+            <i className='fa fa-phone' />{' '}358 405154769
           </h2>
           <h2 style={{ cursor: 'pointer' }} onClick={() => {
             window.location.href = 'mailto:lana.zhak@gmail.com';

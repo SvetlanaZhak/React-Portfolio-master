@@ -22,7 +22,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am Junior Web Developer looking for a job in IT industry. I have about one years of working experience from Smartly, Elisa Automate and GoGoCar. I have studied programming for four years and participated in various software projects. This year I gratuated from Haaga-Helia UAS.",
+    "I am Junior Web Developer looking for a job in IT industry. I have about one year of working experience from Smartly, Elisa Automate and GoGoCar. I have studied programming for four years and participated in various software projects. This year I gratuated from Haaga-Helia UAS.",
   cv: "CV.pdf",
   education: [
     {
